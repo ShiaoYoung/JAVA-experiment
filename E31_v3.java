@@ -40,13 +40,9 @@ public class E31_v3 {
         System.out.println("Total = " + total);
         System.out.println("Average = " + average);
         System.out.println("Max = " + max);
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println("Min = " + min);
+        System.out.println("Max2 = " + max2);
+        System.out.println("Min2 = " + min2);
     }
 
-    //用while写！！！
 }
