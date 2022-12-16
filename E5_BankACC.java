@@ -17,18 +17,16 @@ public class E5_BankACC {
         this.balance = balance;
     }
 
-    public double deposit(double AddMoney)
+    public void deposit(double AddMoney)
     {
         balance += AddMoney;
 
-        return balance;
     }
 
-    public double withdraw(double MinusMoney)
+    public void withdraw(double MinusMoney)
     {
         balance -= MinusMoney;
 
-        return balance;
     }
 
     public double interest()
@@ -39,17 +37,16 @@ public class E5_BankACC {
         return balance;
     }
 
-    public double Check()
+    private void Check()
     {
         if (balance <= 0){
-            return balance = 0;
-        }else {
-            return balance;
+            balance = 0;
         }
     }
 
     public String toString()
     {
+        Check();
         NumberFormat fmt = NumberFormat.getCurrencyInstance();
         return "账户：" + AccountNum + "\t" + "姓名：" + name + "\t" + "余额：" + fmt.format(balance);
     }

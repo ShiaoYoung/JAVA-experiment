@@ -20,7 +20,6 @@ public class E5_Test {
 
         ACC1.withdraw(random.nextDouble(0,500));
         ACC1.deposit(random.nextDouble(0,500));
-        ACC1.Check();
 
         System.out.println(ACC1);
 
@@ -37,7 +36,6 @@ public class E5_Test {
 
         ACC2.withdraw(random.nextDouble(0,500));
         ACC2.deposit(random.nextDouble(0,500));
-        ACC2.Check();
 
         System.out.println(ACC2);
     }
